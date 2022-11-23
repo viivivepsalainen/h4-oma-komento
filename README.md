@@ -69,8 +69,15 @@ d) Laiskaa skriptailua. Tee kansio, josta jokainen skripti kopioituu orjille.
 
 e) Intel. Etsi kolme loppuprojektia joltain vanhalta kurssitoteutukselta. Kuvaile projektit tiiviisti, viittaa ja linkitä alkuperäiseeen raporttin. Tässä alakohdassa ei tarvitse vielä kokeilla mitään koneella, vaan voit kuvailla niitä oheismateriaalin perusteella.
 
-The first one was from 2018 fall, written by Silja Gupta. Silja decided to do salt-module which will install 3D-blender and configure the basic settings, so that the user can use the blender more efficiently. It will also run testrender in the "back" and turn that into a picture file. After that it will also set the picture as the computers wallpaper. 
+1) The first one was from 2018 fall, written by Silja Gupta. Silja decided to do salt-module which will install 3D-blender and configure the basic settings, so that the user can use the blender more efficiently. It will also run testrender in the "back" and turn that into a picture file. After that it will also set the picture as the computers wallpaper. 
 This module is made for new blender users, who want to install it fast and smooth. 
+https://siljagupta.wordpress.com/2018/05/10/palvelinten-hallinta-h6-blender-moduli/
+
+2) The second one was also from 2018 fall, written by Juho Isosomppi. Juho decided to do the module about how to setup a Samba-server with the module. First you setup the master-minion architecture, then create passwords, then add the passwords to the pillar, then restart master, running disk for minions, adding samba users through the ssh -connection. After all this you can map the samba dictionaries to windows -computers straight by adding a network drive. Then there were also directions how to connect with linux. 
+https://github.com/jisosomppi/mgmt/blob/master/README.md#moduli
+
+
+
 
 
 
