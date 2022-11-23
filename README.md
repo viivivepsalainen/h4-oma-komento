@@ -1,6 +1,8 @@
 # h4-oma-komento
 palvelinten hallinta s22 homework 4
 
+I started by updating/upgrading my local system's repository list with command <apt update> and then <apt upgrade>. 
+
 a) Hei komento! Tee järjestelmään uusi "hei maailma" -komento ja asenna se orjille Saltilla. Liitä raporttiisi orjan 'ls -l /usr/local/bin/' tulosteesta ainakin se rivi, jolla näkyy uuden komentotiedostosi oikeudet.
 
 First, I opened the nano -text editor, where I made the script (heimaailma.sh), which looked like this:
@@ -19,7 +21,7 @@ I tried to apply the script several times for the slave, but it always gave me t
 
 So after many hours of trying to google the answer and configuring some settings I just couldn't apply the command to the slave. 
 
-b) b) whatsup.sh. Tee järjestelmään uusi komento, joka kertoo ajankohtaisia tietoja; asenna se orjille. Vinkkejä: Voit näyttää valintasi mukaan esimerkiksi päivämäärää, säätä, tietoja koneesta, verkon tilanteesta...
+b) whatsup.sh. Tee järjestelmään uusi komento, joka kertoo ajankohtaisia tietoja; asenna se orjille. Vinkkejä: Voit näyttää valintasi mukaan esimerkiksi päivämäärää, säätä, tietoja koneesta, verkon tilanteesta...
 
 So as on the task a, I started with opening the text editor and made the script (which gives you todays date and time, kerner-version and how long has the system been running) there, which looked like thiS:
 
@@ -33,4 +35,14 @@ So as on the task a, I started with opening the text editor and made the script 
  
  c) hello.py. Tee järjestelmään uusi komento Pythonilla ja asenna se orjille. Vinkkejä: Hei maailma riittää, mutta propellihatut saavat toki koodaillakin. Shebang on "#!/usr/bin/python3". Helpoin Python-komento on: print("Hei Tero!")
  
+ First I installed python with command <sudo apt install python3>. 
+ 
+ Then with the command <nano testi.py> I made the script that looked like this: 
+ 
+ ![scriptpyttoni](https://user-images.githubusercontent.com/118457367/203624902-b1ff177a-a2b4-4e94-b6d1-7dd48ef849ec.jpg)
+
+ And the outcome of the script looked like this (I checked out that it works with the command <python3 testi.py> ):
+ 
+ ![pytonulos](https://user-images.githubusercontent.com/118457367/203624962-455fe09a-0b7f-4cf5-9f17-8cd365d274e4.jpg)
+
  
