@@ -1,7 +1,7 @@
 # h4-oma-komento
 palvelinten hallinta s22 homework 4
 
-I started by updating/upgrading my local system's repository list with command **apt update** and then <apt upgrade>. 
+I started by updating/upgrading my local system's repository list with command **apt update** and then **apt upgrade**. 
 
 a) Hei komento! Tee järjestelmään uusi "hei maailma" -komento ja asenna se orjille Saltilla. Liitä raporttiisi orjan 'ls -l /usr/local/bin/' tulosteesta ainakin se rivi, jolla näkyy uuden komentotiedostosi oikeudet.
 
