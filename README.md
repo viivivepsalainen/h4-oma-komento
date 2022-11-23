@@ -36,6 +36,14 @@ Then I checked that the script works:
 
 ![newtry6](https://user-images.githubusercontent.com/118457367/203640096-80e38d3a-72dc-4a3b-a76a-de15aa7bad4f.jpg)
 
+After that, just like in the task a, I made the file (with nano text editor, **sudo nano /srv/salt/tietoa/init.sls**) that will copy the command to minions, which looked like this: 
+
+![newtry7 1](https://user-images.githubusercontent.com/118457367/203641487-2ac7d858-b54e-4fbb-98ee-9dfca2d64a01.jpg)
+
+Then I copied the command/applied the state to the minion, which succeeded: 
+
+![NEWTRY7](https://user-images.githubusercontent.com/118457367/203641692-e48a8beb-2b89-4f3e-ace5-2b33e6ed3320.jpg)
+
 
  
  c) hello.py. Tee järjestelmään uusi komento Pythonilla ja asenna se orjille. Vinkkejä: Hei maailma riittää, mutta propellihatut saavat toki koodaillakin. Shebang on "#!/usr/bin/python3". Helpoin Python-komento on: print("Hei Tero!")
