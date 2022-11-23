@@ -76,10 +76,9 @@ https://siljagupta.wordpress.com/2018/05/10/palvelinten-hallinta-h6-blender-modu
 2) The second one was also from 2018 fall, written by Juho Isosomppi. Juho decided to do the module about how to setup a Samba-server with the module. First you setup the master-minion architecture, then create passwords, then add the passwords to the pillar, then restart master, running disk for minions, adding samba users through the ssh -connection. After all this you can map the samba dictionaries to windows -computers straight by adding a network drive. Then there were also directions how to connect with linux. 
 https://github.com/jisosomppi/mgmt/blob/master/README.md#moduli
 
-
-
-
-
+3) The last one was from 2017 fall, written by Mikko Hyvärinen. Mikko decided to build a module, that will install a daemon. First Mikko did all the basic commands, then started creating the "real" module. There he created some new dictionaries and gave commands. It seemed like he couldn't push the files to github (because some permissions weren't right (?)). 
+https://mikkohyvarinen.wordpress.com/2017/10/29/palvelinten-hallinta-h1-rakenna-moduli-joka-asentaa-demonin/
 
 e) Lukua, ei luottamusta. Kokeile yhtä kohdassa d-Intel löytämääsi modulia koneella. Tämä on infraa koodina, joten luottamusta ei tarvita. Voit lukea koodista, mitä olet ajamassa.
- 
+
+I didn't get what I was supposed to try. In the module projects there wasn't any guide how to try them on my computer, so I'm just gonna try tomorrow at the class to run/try something.
