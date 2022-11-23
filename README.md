@@ -1,6 +1,8 @@
 # h4-oma-komento
 palvelinten hallinta s22 homework 4
 
+a) Hei komento! Tee järjestelmään uusi "hei maailma" -komento ja asenna se orjille Saltilla. Liitä raporttiisi orjan 'ls -l /usr/local/bin/' tulosteesta ainakin se rivi, jolla näkyy uuden komentotiedostosi oikeudet.
+
 First, I opened the nano -text editor, where I made the script (heimaailma.sh), which looked like this:
 
 ![entiiämitäteenp100](https://user-images.githubusercontent.com/118457367/203609904-d80c04e4-232f-4877-a9e1-d22d55b405a5.jpg)
@@ -17,3 +19,14 @@ I tried to apply the script several times for the slave, but it always gave me t
 
 So after many hours of trying to google the answer and configuring some settings I just couldn't apply the command to the slave. 
 
+b) b) whatsup.sh. Tee järjestelmään uusi komento, joka kertoo ajankohtaisia tietoja; asenna se orjille. Vinkkejä: Voit näyttää valintasi mukaan esimerkiksi päivämäärää, säätä, tietoja koneesta, verkon tilanteesta...
+
+So as on the task a, I started with opening the text editor and made the script there, which looked like this: 
+
+![script](https://user-images.githubusercontent.com/118457367/203610911-c619cd77-b240-46ee-9958-9c6b905a2a67.jpg)
+
+![HMM](https://user-images.githubusercontent.com/118457367/203611135-686d92e1-5bdf-457b-8018-0782241d766e.jpg)
+ 
+ And then I changed their permissions/rights too, with the command <sudo chmod +x tieto.sh, tieto2.sh>, but I just couldn't apply the state to the slaves, it gave me the same error:
+ 
+ ![nowork](https://user-images.githubusercontent.com/118457367/203611555-c60e36d1-9b6a-4f99-a514-9232d33dfc6f.jpg)
