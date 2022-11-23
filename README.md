@@ -5,21 +5,22 @@ I started by updating/upgrading my local system's repository list with command *
 
 a) Hei komento! Tee järjestelmään uusi "hei maailma" -komento ja asenna se orjille Saltilla. Liitä raporttiisi orjan 'ls -l /usr/local/bin/' tulosteesta ainakin se rivi, jolla näkyy uuden komentotiedostosi oikeudet.
 
-First, I opened the nano -text editor, where I made the script (heimaailma.sh), which looked like this:
+First, I opened the nano -text editor, where I made the script (moimaailma). The script basically only says **echo "hei maailma"** (and the !#/bin/bash at the top).
 
-![entiiämitäteenp100](https://user-images.githubusercontent.com/118457367/203609904-d80c04e4-232f-4877-a9e1-d22d55b405a5.jpg)
+Here are the permissions of the script, which I changed right with the command **sudo chmod 755 moimaailma**:
+
+![newtry1](https://user-images.githubusercontent.com/118457367/203637808-79dea863-bf23-47a6-8a3e-b09f084c28df.jpg)
+
+Then I tried that the command works:
+
+![newtry2](https://user-images.githubusercontent.com/118457367/203638286-8687809d-d306-41dc-ae8c-edc575d4cc5c.jpg)
  
-And this is the helloworld.sh script: 
+ After that I made the file so that we can transfer the command to minions/slaves, which looked like this:
+ 
+ ![newtry4](https://user-images.githubusercontent.com/118457367/203638522-4a1aadd7-43be-499e-aeb6-654f367dd715.jpg)
 
-![script2](https://user-images.githubusercontent.com/118457367/203610009-2106122f-b162-4d50-8c27-65c29d25b7ef.jpg)
+![newtry3](https://user-images.githubusercontent.com/118457367/203638546-48c0a925-b7d3-4d65-9c88-b666a15b08c7.jpg)
 
-After that I changed both files rights with the command **chmod +x heimaailma.sh, helloworld.sh**, so that I can access them.
-
-I tried to apply the script several times for the slave, but it always gave me this same error:
-
-![bigproblemo](https://user-images.githubusercontent.com/118457367/203610131-b9b2bd54-9891-4fb7-ac0c-57e9fce1b1ca.jpg)
-
-So after many hours of trying to google the answer and configuring some settings I just couldn't apply the command to the slave. 
 
 b) whatsup.sh. Tee järjestelmään uusi komento, joka kertoo ajankohtaisia tietoja; asenna se orjille. Vinkkejä: Voit näyttää valintasi mukaan esimerkiksi päivämäärää, säätä, tietoja koneesta, verkon tilanteesta...
 
@@ -56,6 +57,8 @@ First I copied (with **command sudo cp testi.py /srv/salt/scripts**) some old sc
 But once again, I couldn't apply the script to the slave. I'm figuring out tomorrow why. 
 
 e) Intel. Etsi kolme loppuprojektia joltain vanhalta kurssitoteutukselta. Kuvaile projektit tiiviisti, viittaa ja linkitä alkuperäiseeen raporttin. Tässä alakohdassa ei tarvitse vielä kokeilla mitään koneella, vaan voit kuvailla niitä oheismateriaalin perusteella.
+
+
 
 e) Lukua, ei luottamusta. Kokeile yhtä kohdassa d-Intel löytämääsi modulia koneella. Tämä on infraa koodina, joten luottamusta ei tarvita. Voit lukea koodista, mitä olet ajamassa.
  
