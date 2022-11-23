@@ -63,16 +63,14 @@ After that I copied the command to minion, which succeeded:
 ![NEWTRY8](https://user-images.githubusercontent.com/118457367/203646685-5aa7ceca-6df2-459a-afcb-574b8f660c1f.jpg)
 
  
- 
 d) Laiskaa skriptailua. Tee kansio, josta jokainen skripti kopioituu orjille.
 
-First I copied (with **command sudo cp testi.py /srv/salt/scripts**) some old scripts from the previous tasks to this new dictionary (that I created with command **sudo mkdir /srv/salt/scripts**):
-
-![SKRIPTULIT](https://user-images.githubusercontent.com/118457367/203628351-2b47c2e5-0bf5-437a-bde0-f756c07782aa.jpg)
-
-But once again, I couldn't apply the script to the slave. I'm figuring out tomorrow why. 
+ I have no idea how to do this. 
 
 e) Intel. Etsi kolme loppuprojektia joltain vanhalta kurssitoteutukselta. Kuvaile projektit tiiviisti, viittaa ja linkitä alkuperäiseeen raporttin. Tässä alakohdassa ei tarvitse vielä kokeilla mitään koneella, vaan voit kuvailla niitä oheismateriaalin perusteella.
+
+The first one was from 2018 fall, written by Silja Gupta. Silja decided to do salt-module which will install 3D-blender and configure the basic settings, so that the user can use the blender more efficiently. It will also run testrender in the "back" and turn that into a picture file. After that it will also set the picture as the computers wallpaper. 
+This module is made for new blender users, who want to install it fast and smooth. 
 
 
 
