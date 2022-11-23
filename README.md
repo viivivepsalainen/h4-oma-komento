@@ -5,7 +5,7 @@ I started by updating/upgrading my local system's repository list with command *
 
 a) Hei komento! Tee järjestelmään uusi "hei maailma" -komento ja asenna se orjille Saltilla. Liitä raporttiisi orjan 'ls -l /usr/local/bin/' tulosteesta ainakin se rivi, jolla näkyy uuden komentotiedostosi oikeudet.
 
-First, I opened the nano -text editor, where I made the script (moimaailma). The script basically only says **echo "hei maailma"** (and the !#/bin/bash at the top).
+First, I opened the nano -text editor, where I made the script (moimaailma). The script basically only says **echo "hei maailma"** (and the #!/bin/bash at the top).
 
 Here are the permissions of the script, which I changed right with the command **sudo chmod 755 moimaailma**:
 
@@ -15,9 +15,11 @@ Then I tried that the command works:
 
 ![newtry2](https://user-images.githubusercontent.com/118457367/203638286-8687809d-d306-41dc-ae8c-edc575d4cc5c.jpg)
  
- After that I made the file so that we can transfer the command to minions/slaves, which looked like this:
+ After that I made the file (**sudo nano /srv/salt/moimaailma/init.sls**) so that we can transfer/copy the command to minions/slaves, which looked like this:
  
  ![newtry4](https://user-images.githubusercontent.com/118457367/203638522-4a1aadd7-43be-499e-aeb6-654f367dd715.jpg)
+ 
+ After that, with the command **sudo salt viivi state.apply moimaailma** I copied the command to my minion, which succeeded: 
 
 ![newtry3](https://user-images.githubusercontent.com/118457367/203638546-48c0a925-b7d3-4d65-9c88-b666a15b08c7.jpg)
 
