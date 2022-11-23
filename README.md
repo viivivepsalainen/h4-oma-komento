@@ -45,4 +45,17 @@ So as on the task a, I started with opening the text editor and made the script 
  
  ![pytonulos](https://user-images.githubusercontent.com/118457367/203624962-455fe09a-0b7f-4cf5-9f17-8cd365d274e4.jpg)
 
+Again I couldn't apply it, it gave the same error.
+
+d) Laiskaa skriptailua. Tee kansio, josta jokainen skripti kopioituu orjille.
+
+First I copied (with **command sudo cp testi.py /srv/salt/scripts**) some old scripts from the previous tasks to this new dictionary (that I created with command **sudo mkdir /srv/salt/scripts**):
+
+![SKRIPTULIT](https://user-images.githubusercontent.com/118457367/203628351-2b47c2e5-0bf5-437a-bde0-f756c07782aa.jpg)
+
+But once again, I couldn't apply the script to the slave. I'm figuring out tomorrow why. 
+
+e) Intel. Etsi kolme loppuprojektia joltain vanhalta kurssitoteutukselta. Kuvaile projektit tiiviisti, viittaa ja linkitä alkuperäiseeen raporttin. Tässä alakohdassa ei tarvitse vielä kokeilla mitään koneella, vaan voit kuvailla niitä oheismateriaalin perusteella.
+
+e) Lukua, ei luottamusta. Kokeile yhtä kohdassa d-Intel löytämääsi modulia koneella. Tämä on infraa koodina, joten luottamusta ei tarvita. Voit lukea koodista, mitä olet ajamassa.
  
