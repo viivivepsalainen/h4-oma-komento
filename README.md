@@ -50,16 +50,20 @@ Then I copied the command/applied the state to the minion, which succeeded:
  
  First I installed python with command **sudo apt install python3**. 
  
- Then with the command **nano testi.py** I made the script that looked like this: 
+ Then with the command **nano moikku.py** I made a basic script which had the python sheband at the top and said **print("moi viivi")**. I also tested that it worked, and moved it to the /usr/local/bin dictionary and changed the permissions to 755, just like in task a & b. 
  
- ![scriptpyttoni](https://user-images.githubusercontent.com/118457367/203624902-b1ff177a-a2b4-4e94-b6d1-7dd48ef849ec.jpg)
-
- And the outcome of the script looked like this (I checked out that it works with the command **python3 testi.py** ):
+ Then I made the init.sls file to the /srv/salt/moikku/ dictionary (which I created with the command **mkdir -p /srv/salt/moikku**), that copied the command to the minions, which looked like this: 
  
- ![pytonulos](https://user-images.githubusercontent.com/118457367/203624962-455fe09a-0b7f-4cf5-9f17-8cd365d274e4.jpg)
+ ![newtry8 1](https://user-images.githubusercontent.com/118457367/203646155-456262d1-d4d4-4834-813f-c21126defeee.jpg)
 
-Again I couldn't apply it, it gave the same error.
+Then I moved the moikky.py python file to the /srv/salt/moikku dictionary.
 
+After that I copied the command to minion, which succeeded:
+
+![NEWTRY8](https://user-images.githubusercontent.com/118457367/203646685-5aa7ceca-6df2-459a-afcb-574b8f660c1f.jpg)
+
+ 
+ 
 d) Laiskaa skriptailua. Tee kansio, josta jokainen skripti kopioituu orjille.
 
 First I copied (with **command sudo cp testi.py /srv/salt/scripts**) some old scripts from the previous tasks to this new dictionary (that I created with command **sudo mkdir /srv/salt/scripts**):
