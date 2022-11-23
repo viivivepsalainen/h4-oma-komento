@@ -21,7 +21,7 @@ So after many hours of trying to google the answer and configuring some settings
 
 b) b) whatsup.sh. Tee järjestelmään uusi komento, joka kertoo ajankohtaisia tietoja; asenna se orjille. Vinkkejä: Voit näyttää valintasi mukaan esimerkiksi päivämäärää, säätä, tietoja koneesta, verkon tilanteesta...
 
-So as on the task a, I started with opening the text editor and made the script there, which looked like this: 
+So as on the task a, I started with opening the text editor and made the script (which gives you todays date and time, kerner-version and how long has the system been running) there, which looked like thiS:
 
 ![script](https://user-images.githubusercontent.com/118457367/203610911-c619cd77-b240-46ee-9958-9c6b905a2a67.jpg)
 
@@ -30,3 +30,7 @@ So as on the task a, I started with opening the text editor and made the script 
  And then I changed their permissions/rights too, with the command <sudo chmod +x tieto.sh, tieto2.sh>, but I just couldn't apply the state to the slaves, it gave me the same error:
  
  ![nowork](https://user-images.githubusercontent.com/118457367/203611555-c60e36d1-9b6a-4f99-a514-9232d33dfc6f.jpg)
+ 
+ c) hello.py. Tee järjestelmään uusi komento Pythonilla ja asenna se orjille. Vinkkejä: Hei maailma riittää, mutta propellihatut saavat toki koodaillakin. Shebang on "#!/usr/bin/python3". Helpoin Python-komento on: print("Hei Tero!")
+ 
+ 
